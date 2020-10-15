@@ -1,0 +1,30 @@
+{
+  "name": "transactions-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_PATH=. NODE_ENV=development node -r esm server.js",
+    "lint": "eslint ./",
+    "build": "cross-env NODE_PATH=. next build",
+    "start": "cross-env NODE_PATH=. NODE_ENV=production node -r esm server.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "@material-ui/icons": "4.9.1",
+    "axios": "0.20.0",
+    "body-parser": "1.19.0",
+    "cross-env": "7.0.2",
+    "esm": "3.0.84",
+    "express": "4.17.1",
+    "next": "9.3.6",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "uuid": "8.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "7.11.0",
+    "eslint-plugin-react": "7.21.4"
+  }
+}
